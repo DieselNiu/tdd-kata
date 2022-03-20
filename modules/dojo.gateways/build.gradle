@@ -1,0 +1,7 @@
+dependencies {
+    api(project(":dojo.domain"))
+    api(project(":dojo.application"))
+    implementation("org.springframework.boot:spring-boot-starter-web:$springBootVersion")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion")
+    testImplementation("org.springframework.boot:spring-boot-starter-test:$springBootVersion")
+}

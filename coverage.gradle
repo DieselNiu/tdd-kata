@@ -1,0 +1,3 @@
+project.coverage.excludes = [
+    'yes/tdd/Application.class'
+]
